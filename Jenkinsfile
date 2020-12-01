@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage ('Checkout') {
       steps {
-        git branch:'master', url: 'https://https://github.com/derektan1801/vulnado.git'
+        git branch:'master', url: 'https://github.com/derektan1801/vulnado.git'
       }
     }
   
